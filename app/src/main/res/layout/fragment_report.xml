@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:background="#fff">
+            <TextView
+                android:drawableLeft="@drawable/ic_report_problem_black_18dp"
+                android:drawablePadding="10dp"
+                android:text="REPORT"
+                android:textSize="30dp"
+                android:textColor="#BC29E1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert others about any\nunethical actions\nnearby you"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:id="@+id/type_text"
+                android:background="@drawable/text_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:hint="Crime type"
+                android:layout_marginTop="40dp"
+                />
+
+            <EditText
+                android:id="@+id/desc_text"
+                android:background="@drawable/text_view_border"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:hint="Description"
+                android:gravity="top"
+                android:paddingTop="15dp"
+                android:layout_marginTop="40dp"
+                />
+
+            <Button
+                android:id="@+id/alert_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:text="ALERT"
+                android:textColor="#fff"
+                android:background="@drawable/button"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

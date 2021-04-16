@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="CRIME LOCATOR"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:background="#BC29E1"
+        android:textColor="#fff"
+        android:paddingLeft="20dp"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/card_container">
+
+            <androidx.cardview.widget.CardView
+                android:foreground="@drawable/card_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardMaxElevation="1dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardElevation=".5dp">
+
+                <LinearLayout
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PHONE SNATCHING"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        android:textColor="@color/colorAccent"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:lineHeight="22dp"
+                        android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. Praesent libero."/>
+                    
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:textColor="#FF0000"
+                        android:background="?android:selectableItemBackground"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_do_not_disturb_alt_black_18dp"
+                        android:text="Report as Fake"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="@drawable/card_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardMaxElevation="1dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardElevation=".5dp">
+
+                <LinearLayout
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PHONE SNATCHING"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        android:textColor="@color/colorAccent"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:lineHeight="22dp"
+                        android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. Praesent libero."/>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:textColor="#FF0000"
+                        android:background="?android:selectableItemBackground"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_do_not_disturb_alt_black_18dp"
+                        android:text="Report as Fake"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="@drawable/card_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardMaxElevation="1dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardElevation=".5dp">
+
+                <LinearLayout
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PHONE SNATCHING"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        android:textColor="@color/colorAccent"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:lineHeight="22dp"
+                        android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. Praesent libero."/>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:textColor="#FF0000"
+                        android:background="?android:selectableItemBackground"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_do_not_disturb_alt_black_18dp"
+                        android:text="Report as Fake"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="@drawable/card_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardMaxElevation="1dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardElevation=".5dp">
+
+                <LinearLayout
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PHONE SNATCHING"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        android:textColor="@color/colorAccent"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:lineHeight="22dp"
+                        android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. Praesent libero."/>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:textColor="#FF0000"
+                        android:background="?android:selectableItemBackground"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_do_not_disturb_alt_black_18dp"
+                        android:text="Report as Fake"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="@drawable/card_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardMaxElevation="1dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardElevation=".5dp">
+
+                <LinearLayout
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PHONE SNATCHING"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        android:textColor="@color/colorAccent"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:lineHeight="22dp"
+                        android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer nec odio. Praesent libero."/>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:textColor="#FF0000"
+                        android:background="?android:selectableItemBackground"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_do_not_disturb_alt_black_18dp"
+                        android:text="Report as Fake"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

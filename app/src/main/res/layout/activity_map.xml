@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="CRIME LOCATOR"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:background="#BC29E1"
+        android:textColor="#fff"
+        android:paddingLeft="20dp"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:layout_below="@+id/toolbar"
+        android:background="#fff"
+        android:layout_above="@+id/bottom_nav"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+    <LinearLayout
+        android:background="@drawable/bottom_section"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:elevation="2dp"
+        android:id="@+id/bottom_nav"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/test"
+            android:background="?android:selectableItemBackground"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_margin="1dp"
+            android:drawableTop="@drawable/ic_person_pin_black_18dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="missing person"
+            android:gravity="center"
+            android:textSize="10dp"/>
+
+        <Button
+            android:id="@+id/add_new"
+            android:layout_margin="1dp"
+            android:background="?android:selectableItemBackground"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableTop="@drawable/ic_add_circle_outline_black_18dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="10dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/list_view"
+            android:background="?android:selectableItemBackground"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_margin="1dp"
+            android:drawableTop="@drawable/ic_view_list_black_18dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="List View"
+            android:textSize="10dp"
+            android:gravity="center"/>
+        
+    </LinearLayout>
+
+
+</RelativeLayout>
